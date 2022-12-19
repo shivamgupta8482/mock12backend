@@ -49,7 +49,7 @@ app.get("/dashboard", async (req, res) => {
 
 
 
-app.listen(8080, async () => {
+app.listen(4000, async () => {
   try {
     await connection;
     console.log("connected to db sucessfully");
